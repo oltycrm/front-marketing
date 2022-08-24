@@ -11,7 +11,7 @@ import PostCardHero from "~/components/post_card_hero";
 // import { useLoaderData } from "@remix-run/react";
 // import { json } from "@remix-run/node";
 import { GraphQLClient, gql } from "graphql-request";
-import PostBody, { MarkdownRenderer } from "~/components/post_body";
+import PostBody from "~/components/post_body";
 
 // import { getPost } from "~/models/post.server";
 

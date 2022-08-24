@@ -21,7 +21,7 @@ import { Link } from "@remix-run/react";
 //   };
 // }
 
-export default function PostCard({ post }) {
+export default function PostCard({ post }: any) {
   // const {
   //   title,
   //   href,
