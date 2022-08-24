@@ -8,6 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import { Header } from "./components.tsx/header";
+import { StripeBG } from "./components.tsx/StripeBG";
 
 import styles from "./styles/app.css";
 
@@ -33,8 +34,9 @@ export default function App() {
       </head>
       <body>
         <Header />
-        {/* <StripeBG /> */}
         <Outlet />
+        <StripeBG />
+
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

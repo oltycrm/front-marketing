@@ -67,15 +67,15 @@ export default function HomePage() {
                           <div className="sm:flex">
                             <div className="min-w-0 flex-1  ">
                               <label htmlFor="email" className="sr-only">
-                                Email address
+                                Email
                               </label>
                               <input
                                 id="email"
                                 type="email"
                                 placeholder="Введите email"
-                                className="block w-full px-8 py-6 rounded-xl shadow-2xl 
+                                className="block w-full px-8 py-6 rounded-lg bg-slate-50 ring-slate-300  ring-2
                                   border-0 text-2xl text-neutral-900 placeholder-neutral-500 focus:outline-none 
-                                  focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 "
+                                  focus:ring-2 focus:ring-blue-500 "
                               />
                             </div>
                             <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -84,7 +84,7 @@ export default function HomePage() {
                                 className="block w-full px-8 py-6  bg-gradient-to-r 
                                   from-blue-500 to-blue-600 text-white font-medium hover:from-blue-600 
                                   hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 
-                                  focus:ring-blue-400 focus:ring-offset-neutral-900 text-2xl rounded-xl"
+                                  focus:ring-blue-400 focus:ring-offset-neutral-900 text-2xl rounded-lg"
                               >
                                 Изи клик!
                               </button>
@@ -109,7 +109,7 @@ export default function HomePage() {
                     <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 rounded-xl">
                       {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
                       <img
-                        className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none  shadow-2xl  rounded-2xl"
+                        className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none  ring-2 ring-slate-200 rounded-2xl"
                         src="https://www.scoro.com/wp-content/uploads/2020/09/Dashboard.png"
                         alt="image"
                       />
@@ -118,7 +118,6 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-
             {/* Feature section with screenshot */}
             {/* <div className='relative bg-neutral-50 pt-16 sm:pt-24 lg:pt-32'>
                 <div className='mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl'>
