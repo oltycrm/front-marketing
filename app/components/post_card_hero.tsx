@@ -48,7 +48,11 @@ export default function PostCardHero({ post }: any) {
   return (
     <div>
       <Link to={`${post.slug}`}>
-        <a className="bg-white  flex flex-col md:flex-row sm:items-center rounded-lg  p-3.5  max-w-5xl mx-auto bg-slate-40  ring-offset-4 hover:ring-2 ring-blue-500">
+        <a
+          className="bg-white  flex flex-col md:flex-row sm:items-center rounded-lg  p-3.5  
+           max-w-5xl mx-auto bg-slate-40  ring-offset-4 hover:ring-2 ring-blue-500
+          object-cover object-center transition transition-opacity duration-1000"
+        >
           <div className="flex-shrink-1 flex flex-col flex-grow my-4 sm:my-2 md:px-4 ">
             <div>
               <h3 className="font-medium text-xl  text-blue-600">Category</h3>
@@ -81,7 +85,7 @@ export default function PostCardHero({ post }: any) {
 
                 <div className=" sm:block sm:mt-2">
                   <span className="text-neutral-500 dark:text-neutral-400 text-xl">
-                    {post.content}
+                    {post.excerpt}
                   </span>
                 </div>
               </div>

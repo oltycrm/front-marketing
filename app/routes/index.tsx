@@ -32,7 +32,10 @@ export default function HomePage() {
                           />
                         </a> */}
 
-                      <span className="inline-flex items-center px-4 py-1 rounded-full text-xl font-medium bg-blue-50 text-blue-800">
+                      <span
+                        className="inline-flex items-center px-4 py-1 
+                      rounded-full  font-medium bg-blue-50 text-blue-800"
+                      >
                         <svg
                           className="-ml-1 mr-1.5 h-2 w-2 text-blue-600 "
                           fill="currentColor"
@@ -46,7 +49,10 @@ export default function HomePage() {
                           ( 11/100 )
                         </span>
                       </span>
-                      <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-neutral-700 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                      <h1
+                        className="mt-4 text-4xl sm:text-4xl tracking-tight font-medium text-neutral-700 
+                      sm:mt-5  lg:mt-6 xl:text-6xl"
+                      >
                         <span className="block">
                           ЦРМ-система для продаж в чатах,
                         </span>
@@ -73,18 +79,18 @@ export default function HomePage() {
                                 id="email"
                                 type="email"
                                 placeholder="Введите email"
-                                className="block w-full px-8 py-6 rounded-lg bg-slate-50 ring-slate-300  ring-2
-                                  border-0 text-2xl text-neutral-900 placeholder-neutral-500 focus:outline-none 
+                                className="block w-full px-8 py-4 rounded-lg bg-slate-50 ring-slate-300  ring-2
+                                  border-0 text-lg text-neutral-900 placeholder-neutral-500 focus:outline-none 
                                   focus:ring-2 focus:ring-blue-500 "
                               />
                             </div>
                             <div className="mt-3 sm:mt-0 sm:ml-3">
                               <button
                                 type="submit"
-                                className="block w-full px-8 py-6  bg-gradient-to-r 
+                                className="block w-full px-8 py-4  bg-gradient-to-r 
                                   from-blue-500 to-blue-600 text-white font-medium hover:from-blue-600 
                                   hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 
-                                  focus:ring-blue-400 focus:ring-offset-neutral-900 text-2xl rounded-lg"
+                                  focus:ring-blue-400 focus:ring-offset-neutral-900 text-lg rounded-lg"
                               >
                                 Изи клик!
                               </button>

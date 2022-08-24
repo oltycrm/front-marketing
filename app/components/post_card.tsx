@@ -47,7 +47,7 @@ export default function PostCard({ post }) {
                 </h2>
                 <div className=" sm:block sm:mt-2">
                   <span className="text-neutral-500 dark:text-neutral-400 text-xl line-clamp-1">
-                    {post.content}
+                    {post.excerpt}
                   </span>
                 </div>
               </div>

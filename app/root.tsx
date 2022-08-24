@@ -7,8 +7,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { Header } from "./components.tsx/header";
-import { StripeBG } from "./components.tsx/StripeBG";
+import { Header } from "./components/header";
+import { StripeBG } from "./components/StripeBG";
 
 import styles from "./styles/app.css";
 
