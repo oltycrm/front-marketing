@@ -10,7 +10,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
-const { colros } = require("tailwindcss/colors");
 const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
